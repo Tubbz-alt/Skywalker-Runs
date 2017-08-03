@@ -26,19 +26,15 @@ Adding Sanpshots
 To create a snapshot of the template notebook, simply run the *archive.py*
 script,
 
-```
-python archive.py
-```
+    python archive.py
 
 A new file should be added that has the directory and name structure mentioned
 above. The script takes additional arguments if slight deviations of the
 general work-flow is needed. Valid arguments are:
 
-```
--h, --help           show this help message and exit
--v, --verbose        Increase verbosity.
--d, --debug          Run in debug mode.
---log_dir P          Path to save the logs in.
--t P, --template P   Template file path to be copied.
--s P, --save_path P  Save path for copied file.
-```
+    -h, --help           show this help message and exit
+    -v, --verbose        Increase verbosity.
+    -d, --debug          Run in debug mode.
+    --log_dir P          Path to save the logs in.
+    -t P, --template P   Template file path to be copied.
+    -s P, --save_path P  Save path for copied file.
